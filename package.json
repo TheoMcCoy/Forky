@@ -2,10 +2,25 @@
   "name": "forky",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoMcCoy/Forky.git"
+  },
+  "author": "lereko mohlomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheoMcCoy/Forky/issues"
+  },
+  "homepage": "https://github.com/TheoMcCoy/Forky#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
 }
